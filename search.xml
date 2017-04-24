@@ -3,16 +3,16 @@
   
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>%2F2017%2F03%2F15%2Fhello-world%2F</url>
-      <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <title><![CDATA[zepto源码分析一]]></title>
+      <url>%2F2017%2F04%2F20%2Fzepto%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80%2F</url>
+      <content type="text"></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[test]]></title>
-      <url>%2F2017%2F03%2F09%2Ffirst%2F</url>
-      <content type="text"><![CDATA[第二篇测试文章111]]></content>
+      <title><![CDATA[基于fis3的eslint自动检测插件]]></title>
+      <url>%2F2017%2F03%2F09%2F%E5%9F%BA%E4%BA%8Efis3%E7%9A%84eslint%E8%87%AA%E5%8A%A8%E6%A3%80%E6%B5%8B%E6%8F%92%E4%BB%B6%2F</url>
+      <content type="text"><![CDATA[团队发展到一定规模就需要有一个统一的标准去约束团队成员，统一编码风格。要完成这件事就需要先确定几个点： 用什么样的编码规范 是自己定义一套还是基于开源标准 编码规范怎么在实际开发中执行 之后在团队中开了几次头脑风暴，也实际调研了下现有的编码规范。目前比较流向的两个规范： feross的standard标准,目前在github上有1w多个star github地址 官网地址 airbnb公司的javascript标准，目前在github上star已经突破5w github地址]]></content>
     </entry>
 
     
