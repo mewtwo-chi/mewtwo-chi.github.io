@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mewtwo-chi.github.io/"/>
-  <updated>2017-04-20T15:30:17.000Z</updated>
+  <updated>2017-05-16T15:59:08.000Z</updated>
   <id>https://mewtwo-chi.github.io/</id>
   
   <author>
@@ -16,11 +16,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>javascript语言精粹读书笔记-第一章</title>
+    <link href="https://mewtwo-chi.github.io/2017/05/16/javascript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
+    <id>https://mewtwo-chi.github.io/2017/05/16/javascript语言精粹读书笔记/第一章/</id>
+    <published>2017-05-16T15:52:00.000Z</published>
+    <updated>2017-05-16T15:59:08.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="读书笔记" scheme="https://mewtwo-chi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="javascript语言精粹读书笔记" scheme="https://mewtwo-chi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/javascript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="javascript" scheme="https://mewtwo-chi.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>zepto源码分析一</title>
-    <link href="https://mewtwo-chi.github.io/2017/04/20/zepto%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/"/>
-    <id>https://mewtwo-chi.github.io/2017/04/20/zepto源码分析一/</id>
+    <link href="https://mewtwo-chi.github.io/2017/04/20/zepto%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/zepto%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/"/>
+    <id>https://mewtwo-chi.github.io/2017/04/20/zepto源码分析/zepto源码分析一/</id>
     <published>2017-04-20T15:21:00.000Z</published>
-    <updated>2017-04-20T15:30:17.000Z</updated>
+    <updated>2017-05-16T15:59:08.000Z</updated>
     
     <summary type="html">
     
@@ -28,8 +48,10 @@
     
       <category term="源码分析" scheme="https://mewtwo-chi.github.io/categories/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
-      <category term="javascript" scheme="https://mewtwo-chi.github.io/categories/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/javascript/"/>
+      <category term="zepto源码分析" scheme="https://mewtwo-chi.github.io/categories/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/zepto%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
+    
+      <category term="javascript" scheme="https://mewtwo-chi.github.io/tags/javascript/"/>
     
       <category term="zepto" scheme="https://mewtwo-chi.github.io/tags/zepto/"/>
     
@@ -37,44 +59,51 @@
   
   <entry>
     <title>基于fis3的eslint自动检测插件</title>
-    <link href="https://mewtwo-chi.github.io/2017/03/09/%E5%9F%BA%E4%BA%8Efis3%E7%9A%84eslint%E8%87%AA%E5%8A%A8%E6%A3%80%E6%B5%8B%E6%8F%92%E4%BB%B6/"/>
-    <id>https://mewtwo-chi.github.io/2017/03/09/基于fis3的eslint自动检测插件/</id>
+    <link href="https://mewtwo-chi.github.io/2017/03/09/%E9%9A%8F%E7%AC%94/%E5%9F%BA%E4%BA%8Efis3%E7%9A%84eslint%E8%87%AA%E5%8A%A8%E6%A3%80%E6%B5%8B%E6%8F%92%E4%BB%B6/"/>
+    <id>https://mewtwo-chi.github.io/2017/03/09/随笔/基于fis3的eslint自动检测插件/</id>
     <published>2017-03-09T05:45:00.000Z</published>
-    <updated>2017-04-20T15:30:17.000Z</updated>
+    <updated>2017-05-16T15:55:46.000Z</updated>
     
-    <content type="html"><![CDATA[<p>团队发展到一定规模就需要有一个统一的标准去约束团队成员，统一编码风格。要完成这件事就需要先确定几个点：</p>
+    <content type="html"><![CDATA[<p>##起因<br>团队发展到一定规模就需要有一个统一的标准去约束成员，统一编码风格。要完成这件事就需要先确定几个事：</p>
 <ul>
 <li>用什么样的编码规范</li>
 <li>是自己定义一套还是基于开源标准</li>
 <li>编码规范怎么在实际开发中执行</li>
 </ul>
-<p>之后在团队中开了几次头脑风暴，也实际调研了下现有的编码规范。目前比较流向的两个规范：</p>
+<h2 id="选择规范"><a href="#选择规范" class="headerlink" title="选择规范"></a>选择规范</h2><p>在团队中开了几次头脑风暴，也实际调研了下现有的编码规范。目前比较流向的两个规范：</p>
 <ul>
-<li>feross的standard标准,目前在github上有1w多个star <a href="https://github.com/feross/standard" target="_blank" rel="external">github地址</a> <a href="https://standardjs.com/" target="_blank" rel="external">官网地址</a></li>
-<li>airbnb公司的javascript标准，目前在github上star已经突破5w <a href="https://github.com/airbnb/javascript" target="_blank" rel="external">github地址</a></li>
+<li>feross 的 standard 标准,目前在 github 上有1w多个star <a href="https://github.com/feross/standard" target="_blank" rel="external">github地址</a> <a href="https://standardjs.com/" target="_blank" rel="external">官网地址</a></li>
+<li>airbnb 公司的 javascript 标准，目前在 github 上 star 已经突破5w <a href="https://github.com/airbnb/javascript" target="_blank" rel="external">github地址</a></li>
 </ul>
-]]></content>
+<p>虽然 airbnb 公司的方案已有 5w 个 star，不过 standard 标准大有赶超的意思，所以最后选择了基于standard来做 js 规范。</p>
+<h2 id="确定方案"><a href="#确定方案" class="headerlink" title="确定方案"></a>确定方案</h2><p>好了，现在确定了编码规范，剩下的就是怎么去落地标准。如果只是让每个人去学习标准并不能保证所有人都能严格的执行标准去写代码，所以最好的办法还是在开发阶段就发现问题，并且必须要解决了错误才能继续开发，这样就能保证大家都是一样的标准了。</p>
+<p>由于团队使用的是百度的 <a href="http://fis.baidu.com/" target="_blank" rel="external">fis3</a> 作为构建工具，所以第一想法就是用 fis3+eslint 来检查代码。<br>于是就在 fis3 的插件列表中搜了下，找到几款基于 eslint 的 fis3 插件：</p>
+<p><img src="http://op292cjvq.bkt.clouddn.com/fis3/eslint/DE834AC8-D396-47AF-A8C0-EC3BDD94B83D.png" alt="fis3 eslint" title="fis3 eslint"></p>
+<p>但是美中不足的是这些插件大都是在终端中显示错误信息，而且错误信息的格式也不优雅：<br><img src="http://op292cjvq.bkt.clouddn.com/fis3/eslint/4DFC04BF-9DEE-4162-A31E-62EC731245FB.png" alt="fis3 eslint zsh" title="fis3 eslint zsh"></p>
+<p>基于以上原因最终确定自己开发一款基于fis3，eslint和standard标准的插件。</p>
+<h2 id="钩子"><a href="#钩子" class="headerlink" title="钩子"></a>钩子</h2>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;团队发展到一定规模就需要有一个统一的标准去约束团队成员，统一编码风格。要完成这件事就需要先确定几个点：&lt;/p&gt;
+      &lt;p&gt;##起因&lt;br&gt;团队发展到一定规模就需要有一个统一的标准去约束成员，统一编码风格。要完成这件事就需要先确定几个事：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;用什么样的编码规范&lt;/li&gt;
 &lt;li&gt;是自己定义一套还是基于开源标准&lt;/li&gt;
 &lt;li&gt;编码规范怎么在实际开发中执行&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p
+&lt;/
     
     </summary>
     
-      <category term="Node.js" scheme="https://mewtwo-chi.github.io/categories/Node-js/"/>
-    
-      <category term="插件开发" scheme="https://mewtwo-chi.github.io/categories/Node-js/%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/"/>
+      <category term="随笔" scheme="https://mewtwo-chi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="fis3" scheme="https://mewtwo-chi.github.io/tags/fis3/"/>
     
       <category term="eslint" scheme="https://mewtwo-chi.github.io/tags/eslint/"/>
+    
+      <category term="nodejs" scheme="https://mewtwo-chi.github.io/tags/nodejs/"/>
+    
+      <category term="插件开发" scheme="https://mewtwo-chi.github.io/tags/%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
